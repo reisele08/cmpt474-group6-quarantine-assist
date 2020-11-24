@@ -4,9 +4,6 @@ import awsmobile from '../aws-exports';
 import { withAuthenticator } from 'aws-amplify-react';
 import "./login.css"
 
-// richardtest
-// Adminpassword123~
-
 Amplify.configure(awsmobile);
 class Login extends Component {
   render() {
